@@ -1,0 +1,3 @@
+[submodule "Plugin/Composer"]
+	path = Plugin/Composer
+	url = git://github.com/uzyn/cakephp-composer.git
