@@ -77,24 +77,24 @@
     },
     {
         "name": "cofreeweb/acl",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
+        "version": "0.2.x-dev",
+        "version_normalized": "0.2.9999999.9999999-dev",
         "source": {
             "type": "git",
             "url": "https://github.com/Cofreeweb/CakeAclPlugin.git",
-            "reference": "00a44834baaca6065a8836e247e410d9a0264767"
+            "reference": "d2ec3c9b733cac4787eb3c1b9fff082c9be46299"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Cofreeweb/CakeAclPlugin/zipball/00a44834baaca6065a8836e247e410d9a0264767",
-            "reference": "00a44834baaca6065a8836e247e410d9a0264767",
+            "url": "https://api.github.com/repos/Cofreeweb/CakeAclPlugin/zipball/d2ec3c9b733cac4787eb3c1b9fff082c9be46299",
+            "reference": "d2ec3c9b733cac4787eb3c1b9fff082c9be46299",
             "shasum": ""
         },
         "require": {
             "composer/installers": "*",
             "php": ">=5.3.0"
         },
-        "time": "2013-11-27 06:34:05",
+        "time": "2013-11-27 07:27:33",
         "type": "cakephp-plugin",
         "installation-source": "source",
         "notification-url": "https://packagist.org/downloads/",
@@ -108,5 +108,39 @@
             }
         ],
         "description": "ACL plugin for CakePHP"
+    },
+    {
+        "name": "cofreeweb/cofree",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Cofreeweb/CakeCofreePlugin.git",
+            "reference": "cb995d4f903e06c971b72d38a34094e26b659150"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Cofreeweb/CakeCofreePlugin/zipball/cb995d4f903e06c971b72d38a34094e26b659150",
+            "reference": "cb995d4f903e06c971b72d38a34094e26b659150",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "*",
+            "php": ">=5.3.0"
+        },
+        "time": "2013-11-27 10:40:01",
+        "type": "cakephp-plugin",
+        "installation-source": "source",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Cofreeweb",
+                "homepage": "http://cofreeweb.com"
+            }
+        ],
+        "description": "Utilities plugin for CakePHP"
     }
 ]

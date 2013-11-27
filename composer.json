@@ -1,15 +1,1 @@
-{
-	"type": "cakephp-app",
-	"license": "MIT",
-	"authors": [
-		{
-			"name": "Cofreeweb",
-			"homepage": "http://cofreeweb.com"
-		}
-	],
-	"require": {
-		"php": ">=5.3.0",
-		"composer/installers": "*",
-		"cofreeweb/acl": "dev-master"
-	}
-}
+{"type":"cakephp-app","license":"MIT","authors":[{"name":"Cofreeweb","homepage":"http:\/\/cofreeweb.com"}],"require":{"php":">=5.3.0","composer\/installers":"*","cofreeweb\/acl":"0.2.*@dev","cofreeweb\/cofree":"dev-master"},"config":{"vendor-dir":"Vendor"}}
